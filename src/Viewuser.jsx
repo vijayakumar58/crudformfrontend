@@ -62,7 +62,7 @@ const Viewuser = () => {
       </div>
       <div className="col-3 ">
           {/* <img src={userData.image ? require(`./images/${userData.image}`) : null} alt="A beautiful picture of a landscape" style={{height:"250px", width:"340px",padding:""}} /> */}
-          <img src={`${env.api}/images/${userData.image}`} alt="User Avatar" style={{ height: "250px", width: "340px", padding: "" }} />
+          <img src={`${env.api}/src/images/${userData.image}`} alt="User Avatar" style={{ height: "250px", width: "340px", padding: "" }} />
         </div>
         </div>
       </div>

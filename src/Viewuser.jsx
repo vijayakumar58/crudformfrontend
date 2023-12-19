@@ -20,11 +20,13 @@ const Viewuser = () => {
         }
       })
       setUserData(user.data);
+      console.log(user.data);
       setLoading(false);
     } catch (error) {
-      
+      console.error("Error fetching user:", error);
     }
   }
+  console.log(loadUser);
   return (
     <div className="card text-left text-opacity ml-4 mr-4" style={{color :"black" , fontSize : "40px"}}>
         <div>
